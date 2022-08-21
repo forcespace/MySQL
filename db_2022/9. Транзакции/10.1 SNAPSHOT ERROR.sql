@@ -1,0 +1,16 @@
+USE bank
+
+SET	TRANSACTION ISOLATION LEVEL
+	SNAPSHOT
+
+BEGIN TRANSACTION
+
+SELECT	*
+FROM		account
+WHERE	id = 1
+
+UPDATE	account
+SET			balance = balance + 5
+WHERE	id = 1
+
+COMMIT

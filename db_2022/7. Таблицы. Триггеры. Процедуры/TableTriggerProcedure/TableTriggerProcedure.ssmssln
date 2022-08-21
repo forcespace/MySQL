@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09BE2B01-DDE9-47E0-ACCC-54F30B9F1AEF}"
+	ProjectSection(SolutionItems) = preProject
+		1. TempTable.sql = 1. TempTable.sql
+		10. Cursor.sql = 10. Cursor.sql
+		11. Functions.sql = 11. Functions.sql
+		12. Trigger.sql = 12. Trigger.sql
+		2. TempTableExample.sql = 2. TempTableExample.sql
+		3. CTE.sql = 3. CTE.sql
+		4. Views.sql = 4. Views.sql
+		5.1. Views update.sql = 5.1. Views update.sql
+		5.2. Views update.sql = 5.2. Views update.sql
+		6. Views SCHEMABINDING.sql = 6. Views SCHEMABINDING.sql
+		7. Variables.sql = 7. Variables.sql
+		8. Procedure.sql = 8. Procedure.sql
+		9. Procedure with params.sql = 9. Procedure with params.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D9959B-5317-4BC8-98AB-AD0A9C5F6C91}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7539956-08A5-436B-84E6-5DCABA404C79}
+	EndGlobalSection
+EndGlobal

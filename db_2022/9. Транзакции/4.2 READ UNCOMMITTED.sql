@@ -1,0 +1,14 @@
+USE bank
+
+
+-- Пример нарушения изоляции
+
+SET TRANSACTION ISOLATION LEVEL
+    READ UNCOMMITTED
+
+BEGIN TRANSACTION
+
+SELECT * FROM account
+WHERE id = 1
+
+COMMIT

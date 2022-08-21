@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Транзакции и блокировки">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(LocalDB)\DBCourse:LAPTOP\Zakhar">
+          <Created>2019-03-24T16:50:55.3748835+03:00</Created>
+          <Type>SQL</Type>
+          <Server>(LocalDB)\DBCourse</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1. CREATE TABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1. CREATE TABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10.1 SNAPSHOT ERROR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10.1 SNAPSHOT ERROR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10.2 SNAPSHOT ERROR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10.2 SNAPSHOT ERROR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2. TRANSACTION Example.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2. TRANSACTION Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3. TRANSACTION Example.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3. TRANSACTION Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.1 READ UNCOMMITTED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4.1 READ UNCOMMITTED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.2 READ UNCOMMITTED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4.2 READ UNCOMMITTED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.1 READ COMMITTED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.1 READ COMMITTED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.2 READ COMMITTED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.2 READ COMMITTED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6.1 REPEATABLE READ.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6.1 REPEATABLE READ.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6.2 REPEATABLE READ.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6.2 REPEATABLE READ.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7.1 SERIALIZABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7.1 SERIALIZABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7.2 SERIALIZABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7.2 SERIALIZABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8.1 DEADLOCK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8.1 DEADLOCK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8.2 DEADLOCK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8.2 DEADLOCK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9.1 SNAPSHOT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9.1 SNAPSHOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9.2 SNAPSHOT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9.2 SNAPSHOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Lock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\DBCourse:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\DBCourse</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Lock.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

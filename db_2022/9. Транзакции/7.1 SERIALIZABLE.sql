@@ -1,0 +1,18 @@
+USE bank
+
+--DBCC USEROPTIONS
+
+-- 1.
+SET	TRANSACTION ISOLATION LEVEL
+	SERIALIZABLE
+	
+BEGIN TRANSACTION
+
+SELECT	SUM(balance) as total
+FROM		account
+
+-- 3.
+SELECT	SUM(balance) as total
+FROM		account
+
+COMMIT
